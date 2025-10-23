@@ -10,5 +10,6 @@ void main()
     sum = a +b;
     average = sum/2;
     printf("The sum %f and average value %f", sum, average);
+    printf("The sum %f and average value %f", sum, averag);
 
 }
