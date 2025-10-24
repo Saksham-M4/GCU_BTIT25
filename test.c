@@ -1,15 +1,12 @@
-# include <stdio.h>
-# include <conio.h>
-void main()
+#include <stdio.h>
 
-{
-    float a, b;
-    printf("Enter two numbers:");
-    scanf("%f %f", &a, &b);
-    float sum, average;
-    sum = a +b;
-    average = sum/2;
-    printf("The sum %f and average value %f", sum, average);
-    printf("The sum %f and average value %f", sum, averag);
+int main() {
+    int digit;
 
+    printf("Enter a digit (0-9): ");
+    scanf("%d", &digit);
+
+    printf("You entered: %d\n", digit);
+
+    return 0;
 }
